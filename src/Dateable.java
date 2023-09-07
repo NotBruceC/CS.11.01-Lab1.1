@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Dateable {
-public Dateable(String[] args) {
+public Dateable(String[] ignoredArgs) {
 Scanner scanner = new Scanner(System.in);
 System.out.println("ENTER your AGE!!");
 int age = scanner.nextInt();
@@ -23,6 +23,7 @@ int age = scanner.nextInt();
 
 
 
-        
+
     }
 }
+
