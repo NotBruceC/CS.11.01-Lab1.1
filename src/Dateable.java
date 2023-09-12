@@ -1,8 +1,10 @@
 import java.util.Scanner;
 
 public class Dateable {
-public Dateable(String[] ignoredArgs) {
-Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args){
+
+    Scanner scanner = new Scanner(System.in);
 System.out.println("ENTER your AGE!!");
 int age = scanner.nextInt();
         while (age<0 ) {
@@ -16,7 +18,7 @@ int age = scanner.nextInt();
         System.out.println("Age:" + age);
        int age2 = age / 2;
        int agew = age2 + 7;
-       System.out.println("Age of date:" + agew);
+       System.out.println("Folk Rule says- " + agew);
 
 
 
